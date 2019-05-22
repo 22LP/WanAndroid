@@ -18,7 +18,7 @@
         android:id="@+id/slide_tl_tab"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        app:tabSelectedTextColor="#49dd12"
+        app:tabSelectedTextColor="#26DD12"
         app:tabTextColor="@android:color/darker_gray"
         app:tabIndicatorHeight="0dp"
         app:tabBackground="@android:color/white"/>

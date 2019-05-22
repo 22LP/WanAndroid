@@ -2,5 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <fragment
+        android:id="@+id/fragment_fm_article"
+        android:name="com.duliapeng.wanandroid.view.ArticleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 </LinearLayout>
