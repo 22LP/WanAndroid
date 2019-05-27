@@ -11,12 +11,13 @@ public class Article {
     private String title;
     private String link;
 
-    public Article(String author, String niceDate,String chapterName, String superChapterName, String title) {
+    public Article(String author, String niceDate,String chapterName, String superChapterName, String title, String link) {
         this.author = author;
         this.niceDate = niceDate;
         this.chapterName = chapterName;
         this.superChapterName = superChapterName;
         this.title = title;
+        this.link = link;
     }
 
     public String getAuthor() {
@@ -65,17 +66,5 @@ public class Article {
 
     public void setLink(String link) {
         this.link = link;
-    }
-
-    @Override
-    public String toString() {
-        return "Article{" +
-                "author='" + author + '\'' +
-                ", chapterName='" + chapterName + '\'' +
-                ", niceDate='" + niceDate + '\'' +
-                ", superChapterName='" + superChapterName + '\'' +
-                ", title='" + title + '\'' +
-                ", link='" + link + '\'' +
-                '}';
     }
 }

@@ -4,11 +4,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/article_lv_list"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/homepage_vp_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/article_srl_refresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </ListView>
 
+        <ListView
+            android:id="@+id/article_lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
 
+    <ProgressBar
+        android:id="@+id/article_pb_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

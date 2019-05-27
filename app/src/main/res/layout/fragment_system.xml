@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <fragment
+        android:id="@+id/fragment_fm_system"
+        android:name="com.duliapeng.wanandroid.view.SystemFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:text="system" />
+        android:layout_height="match_parent" />
 </LinearLayout>

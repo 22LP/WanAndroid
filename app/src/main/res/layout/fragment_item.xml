@@ -3,8 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <fragment
+        android:id="@+id/fragment_fm_item"
+        android:name="com.duliapeng.wanandroid.view.ItemFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="item"/>
+        android:layout_height="match_parent" />
 </LinearLayout>
